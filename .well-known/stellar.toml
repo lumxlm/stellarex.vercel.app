@@ -13,9 +13,9 @@ NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 ORG_NAME            = "x402 Foundation"
 ORG_DBA             = "x402"
 ORG_URL             = "https://x402.org"
-ORG_LOGO            = "https://x402.org/assets/x402-icon.png"
+ORG_LOGO            = "https://www.x402.org/images/x402_vector.svg"
 ORG_DESCRIPTION     = "x402 is a fixed-supply digital token built on the Stellar blockchain. Named after the HTTP 402 Payment Required status code, x402 is designedfor frictionless machine-to-machine micropayments, API monetisation and permissionless digital commerce. With a hard-capped supply of 8,000,000,000 tokens and no inflationary mechanism, x402 provides a deflationary foundation for the open payments web."
-ORG_TWITTER         = "x402token"
+ORG_TWITTER         = "x402"
 
 # --------------------------------------------------
 # PRINCIPALS
@@ -34,7 +34,7 @@ status                        = "live"
 display_decimals              = 7
 name                          = "x402 Token"
 desc                          = "x402 (ticker: X402) is a fixed-supply utility token on the Stellar network. Total supply is permanently fixed at 8,000,000,000 X402. No additional tokens can ever be created. The token is purpose-built for instant, low-cost machine-to-machine payments and API monetisation workflows, honouring the spirit of the HTTP 402 Payment Required standard."
-image                         = "https://x402.org/assets/x402-icon.png"
+image                         = "https://www.x402.org/images/x402_vector.svg"
 fixed_supply                  = 8000000000
 is_asset_anchored             = false
 anchor_asset_type             = "other"
