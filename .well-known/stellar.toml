@@ -1,0 +1,87 @@
+# ===================================================
+# stellar.toml — x402 Token on Stellar Blockchain
+# ===================================================
+
+VERSION = "2.0.2"
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+# --------------------------------------------------
+# ORGANIZATION
+# --------------------------------------------------
+[DOCUMENTATION]
+ORG_NAME            = "x402 Foundation"
+ORG_DBA             = "x402"
+ORG_URL             = "https://x402.org"
+ORG_LOGO            = "https://x402.org/assets/x402-icon.png"
+ORG_DESCRIPTION     = "x402 is a fixed-supply digital token built on the Stellar blockchain. Named after the HTTP 402 Payment Required status code, x402 is designedfor frictionless machine-to-machine micropayments, API monetisation and permissionless digital commerce. With a hard-capped supply of 8,000,000,000 tokens and no inflationary mechanism, x402 provides a deflationary foundation for the open payments web."
+ORG_TWITTER         = "x402token"
+
+# --------------------------------------------------
+# PRINCIPALS
+# --------------------------------------------------
+[[PRINCIPALS]]
+name  = "x402 Core Team"
+email = "team@x402.org"
+
+# --------------------------------------------------
+# CURRENCIES
+# --------------------------------------------------
+[[CURRENCIES]]
+code                          = "X402"
+issuer                        = "GCQCPOO5E33CS76NJOAS4LIPAWJYIV4PKNOG53QGHGXWWFVJWW5MFSYX"
+status                        = "live"
+display_decimals              = 7
+name                          = "x402 Token"
+desc                          = "x402 (ticker: X402) is a fixed-supply utility token on the Stellar network. Total supply is permanently fixed at 8,000,000,000 X402. No additional tokens can ever be created. The token is purpose-built for instant, low-cost machine-to-machine payments and API monetisation workflows, honouring the spirit of the HTTP 402 Payment Required standard."
+image                         = "https://x402.org/assets/x402-icon.png"
+fixed_supply                  = 8000000000
+is_asset_anchored             = false
+anchor_asset_type             = "other"
+redemption_instructions       = "X402 is a utility token and is not redeemable for any fiat currency or commodity."
+
+# --------------------------------------------------
+# CONDITIONS OF USE
+# --------------------------------------------------
+# X402 tokens are issued subject to the following conditions:
+#
+# 1. FIXED SUPPLY
+#    The total supply of X402 is permanently fixed at 8,000,000,000 units.
+#    The issuer account's ability to create additional tokens has been
+#    irrevocably removed by locking the issuer account (setting
+#    AUTH_REVOCABLE and AUTH_IMMUTABLE flags appropriately and removing
+#    the master key). No inflation, no minting.
+#
+# 2. NON-CUSTODIAL
+#    The issuer does not hold user funds. All token transfers occur
+#    peer-to-peer on the Stellar network without intermediary custody.
+#
+# 3. UTILITY ONLY
+#    X402 is a utility token. It does not represent equity, debt,
+#    a share of profits, or any investment contract. Holding X402
+#    confers no governance rights unless explicitly granted by a
+#    separate on-chain mechanism.
+#
+# 4. TRUSTLINE REQUIREMENT
+#    To receive X402, a Stellar account must establish a trustline
+#    to the issuer (GCQCPOO5E33CS76NJOAS4LIPAWJYIV4PKNOG53QGHGXWWFVJWW5MFSYX).
+#    The issuer reserves no right to freeze or clawback tokens
+#    (AUTH_REVOCABLE is disabled).
+#
+# 5. COMPLIANCE
+#    Recipients and traders of X402 are solely responsible for ensuring
+#    their use complies with applicable laws and regulations in their
+#    jurisdiction. The issuer makes no representations regarding the
+#    legal status of X402 in any jurisdiction.
+#
+# 6. NO WARRANTIES
+#    X402 is provided "as is" without warranty of any kind. The issuer
+#    shall not be liable for any loss arising from the use or inability
+#    to use X402, including losses due to smart-contract bugs, network
+#    outages, or third-party exchange failures.
+#
+# 7. IMMUTABLE SUPPLY PROOF
+#    Prospective holders can verify the fixed supply by inspecting the
+#    issuer account on the Stellar network. The issuing account master
+#    key weight must be 0 (or the account locked) to confirm no further
+#    issuance is possible. On-chain proof supersedes any off-chain claim.
