@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://stellar.expert/explorer/public/asset/X402-GCQCPOO5E33CS76NJOAS4LIPAWJYIV4PKNOG53QGHGXWWFVJWW5MFSYX">
+  <a href="https://stellar.expert/explorer/public/asset/x402-GCQCPOO5E33CS76NJOAS4LIPAWJYIV4PKNOG53QGHGXWWFVJWW5MFSYX">
     <img src="https://img.shields.io/badge/Network-Stellar%20Mainnet-blue?style=flat-square" alt="Stellar Mainnet">
   </a>
   <a href="stellar.toml">
@@ -23,7 +23,7 @@
 
 ## Overview
 
-**x402** (`X402`) is a fixed-supply utility token on the [Stellar](https://stellar.org) blockchain, named after the HTTP `402 Payment Required` status code — a standard reserved since 1991 for a payments layer that never arrived on the web.
+**x402** (`x402`) is a fixed-supply utility token on the [Stellar](https://stellar.org) blockchain, named after the HTTP `402 Payment Required` status code — a standard reserved since 1991 for a payments layer that never arrived on the web.
 
 x402 fills that gap: a hard-capped, deflationary token purpose-built for machine-to-machine micropayments, API monetisation, and permissionless digital commerce.
 
@@ -33,7 +33,7 @@ x402 fills that gap: a hard-capped, deflationary token purpose-built for machine
 
 | Parameter | Value |
 |---|---|
-| **Ticker** | `X402` |
+| **Ticker** | `x402` |
 | **Network** | Stellar Mainnet |
 | **Issuer** | `GCQCPOO5E33CS76NJOAS4LIPAWJYIV4PKNOG53QGHGXWWFVJWW5MFSYX` |
 | **Total Supply** | `8,000,000,000` |
